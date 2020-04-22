@@ -67,15 +67,17 @@ nav {
   width: 30%;
 }
 
-.twitch-nav li {
+.twitch-nav a {
   display: flex;
   align-items: center;
   margin: 0 8px;
   cursor: pointer;
   text-align: center;
+  text-decoration: none;
+  color: #eee;
 }
 
-.twitch-nav li .left {
+.twitch-nav a .left {
   padding: 11px 7px;
   border-radius: 4px 0 0 4px;
   background-color: #6441a4;
@@ -121,6 +123,7 @@ nav {
 .main-frame {
   margin-top: 80px;
   margin-bottom: 120px;
+  text-align: center;
 }
 
 .social {
