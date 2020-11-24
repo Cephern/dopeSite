@@ -344,6 +344,10 @@ form [type="submit"]:active {
   transform: scale(0.95);
 }
 
+form input {
+ color: #fff; 
+}
+
 footer {
   background-color: #000;
   display: flex;
